@@ -1,0 +1,17 @@
+{
+    "id":"flecs.systems.civetweb",
+    "type":"package",
+    "value": {
+        "author": "Sander Mertens, the Civetweb developers",
+        "description": "Civetweb based HTTP server systems",
+        "use": [
+            "flecs",
+            "flecs.util",
+            "flecs.components.http",
+            "bake.util"
+        ]
+    },
+    "lang.c": {
+        "lib": ["pthread", "dl"]
+    }
+}

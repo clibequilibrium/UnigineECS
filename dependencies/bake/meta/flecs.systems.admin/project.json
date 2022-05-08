@@ -1,0 +1,20 @@
+{
+    "id":"flecs.systems.admin",
+    "type":"package",
+    "value": {
+        "author": "Sander Mertens",
+        "description": "Web based dashboard for flecs",
+        "use": [
+            "flecs",
+            "flecs.util",
+            "flecs.components.http",
+            "bake.util"
+        ],
+        "use-bundle": ["flecs.hub:default"]
+    },
+    "bundle": {
+        "repositories": {
+            "flecs.hub": "https://github.com/flecs-hub/flecs-hub"
+        }
+    }
+}

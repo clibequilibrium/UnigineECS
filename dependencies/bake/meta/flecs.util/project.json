@@ -1,0 +1,7 @@
+{
+    "id":"flecs.util",
+    "type":"package",
+    "value": {
+        "use": ["flecs"]
+    }
+}

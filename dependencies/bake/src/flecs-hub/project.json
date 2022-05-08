@@ -1,0 +1,32 @@
+{
+    "id": "flecs.hub",
+    "type": "package",
+    "value": {
+        "author": "Sander Mertens",
+        "description": "Bundle with flecs modules",
+        "language": "none",
+        "repository": "https://github.com/flecs-hub/flecs-hub"
+    },
+    "bundle": {
+        "default-host": "https://github.com",
+
+        "repositories": {
+            "flecs": "SanderMertens/flecs",
+            "flecs.hub": "flecs-hub/flecs-hub",
+            "flecs.math": "flecs-hub/flecs-math",
+            "flecs.components.dds": "flecs-hub/flecs-components-dds",
+            "flecs.components.meta": "flecs-hub/flecs-components-meta",
+            "flecs.components.http": "flecs-hub/flecs-components-http",
+            "flecs.components.graphics": "flecs-hub/flecs-components-graphics",
+            "flecs.components.transform": "flecs-hub/flecs-components-transform",
+            "flecs.components.geometry": "flecs-hub/flecs-components-geometry",
+            "flecs.components.physics": "flecs-hub/flecs-components-physics",
+            "flecs.components.input": "flecs-hub/flecs-components-input",
+            "flecs.systems.civetweb": "flecs-hub/flecs-systems-civetweb",
+            "flecs.systems.admin": "flecs-hub/flecs-systems-admin",
+            "flecs.systems.sdl2": "flecs-hub/flecs-systems-sdl2",
+            "flecs.systems.physics": "flecs-hub/flecs-systems-physics",
+            "flecs.systems.prometheus": "flecs-hub/flecs-systems-prometheus"
+        }
+    }
+}

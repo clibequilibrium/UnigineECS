@@ -1,0 +1,1 @@
+{"lang.$${language}":{"lib":["sfml-graphics","sfml-window","sfml-audio","sfml-network","sfml-system","stdc++","GL","X11"]}}
